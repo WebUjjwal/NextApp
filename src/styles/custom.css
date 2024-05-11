@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+@font-face {
+    font-family: 'degular';
+    src: url('../../public/fonts/fonnts.com-DegularDisplayDemo-Semibold.otf'),
+        url('../../public/fonts/fonnts.com-DegularDisplayDemo-Black.otf'),
+        url('../../public/fonts/fonnts.com-DegularDisplayDemo-Black.otf'),
+        url('../../public/fonts/fonnts.com-DegularDisplayDemo-Bold.otf'),
+        url('../../public/fonts/fonnts.com-DegularDisplayDemo-Light.otf'),
+
+        url('../../public/fonts/fonnts.com-DegularDisplayDemo-Regular.otf'),
+
+        url('../../public/fonts/fonnts.com-DegularDisplayDemo-Thin.otf'),
+
+    ;
+}
+
+@font-face {
+    font-family: 'degular';
+    src: url('../../public/fonts/fonnts.com-DegularDisplayDemo-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sf pro';
+    src: url("../../public/fonts/SFPRODISPLAYREGULAR.OTF"),
+        url('../../public/fonts/SFPRODISPLAYMEDIUM.OTF'),
+        url("../../public/fonts/SFPRODISPLAYBOLD.OTF");
+}
+
+@font-face {
+    font-family: 'sf mono';
+    src: url('../../public/fonts/SFMonoBold.otf'),
+        url('../../public/fonts/SFMonoLight.otf'),
+        url('../../public/fonts/SFMonoMedium.otf'), url('../../public/fonts/SFMonoRegularItalic.otf'), url('../../public/fonts/SFMonoSemibold.otf');
+}
+
+.container {
+    width: 100%;
+    max-width: 1304px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1330px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+/* .slick-prev {
+    left: -60px;
+    width: 50px;
+    height: 50px;
+    background-color: #B4FD83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-prev:hover {
+    background-color: #83E83F;
+}
+
+
+.slick-prev::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../public/images/slider-arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+} */
