@@ -6,7 +6,7 @@ import Slider from "react-slick";
 
 // import img from ''
 
-function LovePlayht() {
+export function LovePlayht() {
 
     var settings = {
         dots: true,
@@ -108,4 +108,3 @@ function LovePlayht() {
     )
 }
 
-export default LovePlayht

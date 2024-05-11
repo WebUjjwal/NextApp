@@ -2,7 +2,7 @@ import AudioPlayer from "../VoiceComponent/viceCard"
 
 import style from './FindVoice.module.css'
 
-const FindVoice = () => {
+export const FindVoice = () => {
     const FindViceData = [
         {
             id: 0,
@@ -71,5 +71,3 @@ const FindVoice = () => {
         </>
     )
 }
-
-export default FindVoice

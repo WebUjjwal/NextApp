@@ -1,6 +1,6 @@
 
 
-const TryFree = () => {
+export const TryFree = () => {
     return (
         <>
             <div className="try_main_container">
@@ -15,4 +15,3 @@ const TryFree = () => {
     )
 }
 
-export default TryFree

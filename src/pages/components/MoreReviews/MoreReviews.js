@@ -1,7 +1,7 @@
 import { ReviewData } from "@/pages/data/reviewData"
 
 
-const MoreReviews = () => {
+export const MoreReviews = () => {
     return (
         <>
             <div className="more_review_main_container mt-[100px] ">
@@ -56,4 +56,4 @@ const MoreReviews = () => {
 }
 
 
-export default MoreReviews
+

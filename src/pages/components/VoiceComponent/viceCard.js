@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 
 
-const AudioPlayer = ({ audioVoice }) => {
+export const AudioPlayer = ({ audioVoice }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
 
@@ -45,7 +45,7 @@ const AudioPlayer = ({ audioVoice }) => {
     );
 };
 
-export default AudioPlayer;
+
 
 
 
